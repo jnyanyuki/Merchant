@@ -13,3 +13,13 @@ Thumbs.db
 **/.env.*
 !**/.env.example
 
+
+# Build outputs & caches
+dist/
+build/
+.turbo/
+*.tar.zst
+*.log
+node_modules/
+.env
+.env*.local
